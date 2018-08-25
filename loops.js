@@ -29,9 +29,11 @@ function incrementVariable() {
 do {
   console.log(array.length > 0 && incrementVariable());
 } while (i < 5);
+
+  return array
 }
 
-return array
+
 
 
 
