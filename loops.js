@@ -60,4 +60,4 @@ return array;
 
 //function incrementVariable() {
 //return Math.random() >= 0;
-}
+// }
