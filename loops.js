@@ -52,4 +52,4 @@ function whileLoop(n) {
 
 //  function incrementVariable() {
 //  return Math.random() >= 0;
-}
+// }
