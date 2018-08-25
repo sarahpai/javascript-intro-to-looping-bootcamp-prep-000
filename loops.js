@@ -46,7 +46,7 @@ function doWhileLoop(array) {
     array.pop();
   } while (array.length > 0 && incrementVariable());
   
-  return arra
+  return array;
 
 
 //  function doWhileLoop(array) {
@@ -56,7 +56,7 @@ function doWhileLoop(array) {
 //    } while (array.length > 0 && incrementVariable//  ()) {
 //  }
 //  return array;
-//  }
+ }
 
 //  function incrementVariable() {
 //  return Math.random() >= 0;
