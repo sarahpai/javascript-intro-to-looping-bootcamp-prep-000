@@ -36,14 +36,17 @@ do {
 
 
 function doWhileLoop(array) {
+  var i = 1;
   
-do {
-//    array.pop();
-//    } while (array.length > 0 && incrementVariable//  ()) {
-//  }
-//  return array;
-//  }
-
+  function incrementVariable() {
+      i = i + 1;
+    }
+  
+  do { 
+    array.pop();
+  } while (array.length > 0 && incrementVariable());
+  
+  return arra
 
 
 //  function doWhileLoop(array) {
