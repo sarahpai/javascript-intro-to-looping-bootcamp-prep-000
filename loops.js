@@ -9,12 +9,16 @@ function forLoop(array){
  return array;
 }
 
+
+
 function whileLoop(n) {
   while (n > 0) {
     console.log(--n);
   }
 return 'done';
 }
+
+
 
 function doWhileLoop(array){
   var i = 0;
@@ -23,10 +27,11 @@ function incrementVariable() {
 }
  
 do {
-  console.log("doo-bee-doo-bee-doo");
-  incrementVariable();
+  console.log(array.length > 0 && incrementVariable());
 } while (i < 5);
 }
+
+return array
 
 
 
